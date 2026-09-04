@@ -201,6 +201,24 @@
 	<script type="text/javascript">
 		lime.embed ("Funkin", "openfl-content", 1280, 720, { parameters: {} });
 	</script>
+
+	<script>
+		function enterFullscreen() {
+			const element = document.documentElement;
+	
+			if (document.fullscreenElement) return;
+	
+			if (element.requestFullscreen) {
+				element.requestFullscreen().catch(() => {});
+			} else if (element.webkitRequestFullscreen) {
+				element.webkitRequestFullscreen();
+			}
+		}
+	
+		document.addEventListener("touchstart", function () {
+			enterFullscreen();
+		}, { once: true });
+	</script>
 	
 </body>
 </html>
