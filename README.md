@@ -5,4 +5,4 @@ PC: <https://100rae.github.io/funkinhtml/pc>
 
 Mobile: <https://100rae.github.io/funkinhtml/mobile>
 
-Thanks to [FunkinCrew](github.com/funkincrew)
+Thanks to [FunkinCrew](https://github.com/funkincrew)
